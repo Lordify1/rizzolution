@@ -1,0 +1,377 @@
+body {
+    margin: 0;
+    font-family: "Courier New", Courier, monospace;
+    background-color: #080b12;
+}
+.title-section {
+    display: flex;
+    flex-direction: column;
+}
+.title-section .title-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+    width: 100%;
+    margin-top: 40px;
+}
+.title-section .title-text .token-symbol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+    width: 100%;
+    font-size: 48px;
+    font-weight: 900;
+    color: #bababa;
+}
+.title-section .title-text .token-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+    width: 100%;
+    font-size: 48px;
+    font-weight: 900;
+    color: #7dc3c6;
+}
+.title-section .title-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+    width: 100%;
+    margin-top: 40px;
+}
+.title-section .title-image img {
+    height: 500px;
+    border-radius: 20px;
+}
+.title-section .title-desc-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+    width: 100%;
+    margin-top: 40px;
+}
+.title-section .title-desc-container .title-desc {
+    flex: 1 1 auto;
+    width: 100%;
+    font-size: 28px;
+    font-weight: 600;
+    color: #7dc3c6;
+    max-width: 550px;
+    text-align: center;
+}
+.buy-section {
+    display: flex;
+    flex-direction: column;
+}
+.buy-section .buy-now-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+    width: 100%;
+    margin-top: 40px;
+}
+.buy-section .buy-now-button-container .buy-now-button {
+    align-items: center;
+    appearance: none;
+    background-color: #a16cf5;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: #a16cf566 0 2px 4px, #a16cf54d 0 7px 13px -3px, #6d3ac0 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow 0.15s, transform 0.15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
+}
+.buy-now-button:focus {
+    box-shadow: #6d3ac0 0 0 0 1.5px inset, #a16cf566 0 2px 4px, #a16cf54d 0 7px 13px -3px,
+        #6d3ac0 0 -3px 0 inset;
+}
+.buy-now-button:hover {
+    box-shadow: #a16cf566 0 4px 8px, #a16cf54d 0 7px 13px -3px, #6d3ac0 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+.buy-now-button:active {
+    box-shadow: #6d3ac0 0 3px 7px inset;
+    transform: translateY(2px);
+}
+.buy-section .contract-address {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+    margin-top: 40px;
+    font-size: 28px;
+    font-weight: 600;
+    color: #a16cf5;
+}
+.roadmap-section {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff1a;
+    margin-top: 40px;
+    overflow: hidden;
+}
+.roadmap-section .roadmap-meme {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex: 0 0 45%;
+    width: 100%;
+    margin: 40px 0;
+}
+.roadmap-section .roadmap-meme img {
+    height: 500px;
+    border-radius: 20px;
+}
+.roadmap-section .roadmap-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 0 0 50%;
+    width: 100%;
+    overflow: hidden;
+    margin: 40px 0;
+}
+.roadmap-section .spacer {
+    flex: 0 0 5%;
+}
+.roadmap-section .roadmap-text-container .roadmap-header {
+    font-size: 48px;
+    font-weight: 600;
+    color: #bababa;
+    margin-right: 60px;
+}
+.roadmap-section .roadmap-text-container .roadmap-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 28px;
+    font-weight: 600;
+    color: #7dc3c6;
+    margin-right: 60px;
+    margin-top: 10px;
+}
+.roadmap-section-header:first-child {
+    margin-top: 20px;
+}
+.roadmap-section-header {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: #a16cf5;
+}
+.roadmap-section-item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.roadmap-section-item div:first-child {
+    flex: 0 0 auto;
+    margin-right: 10px;
+}
+.roadmap-section-item div:last-child {
+    flex: 1 1 auto;
+}
+.socials-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+.socials-section .socials-header {
+    margin-bottom: 40px;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    color: #bababa;
+}
+.socials-section .socials-icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.socials-section .socials-icon-container button {
+    border: none;
+    background-color: #ffffff00;
+}
+.socials-section .socials-icon-container button {
+    margin-right: 40px;
+}
+.socials-section .socials-icon-container button:last-child {
+    margin-right: 0 !important;
+}
+.telegram-icon,
+.x-icon,
+.instagram-icon {
+    height: 80px;
+    width: 80px;
+    scale: 1;
+    transition: scale 300ms ease;
+    cursor: pointer;
+}
+.youtube-icon,
+.tiktok-icon {
+    height: 80px;
+    scale: 1;
+    transition: scale 300ms ease;
+    cursor: pointer;
+}
+.telegram-icon:hover,
+.x-icon:hover,
+.youtube-icon:hover,
+.tiktok-icon:hover,
+.instagram-icon:hover {
+    scale: 1.1;
+}
+.degen-images-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #ffffff1a;
+    padding: 40px 0;
+}
+.degen-images-section .degen-image {
+    flex: 0 0 auto;
+    width: 300px;
+    height: 300px;
+    margin: 0 10px;
+}
+.degen-images-section .degen-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    scale: 1;
+    transition: scale 300ms ease;
+}
+.degen-images-section .degen-image img:hover {
+    scale: 1.05;
+}
+/* .tooltip {
+    position: relative;
+}
+.tooltip:after {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    content: attr(data-tooltip);
+    padding: 6px 10px;
+    top: 1.4em;
+    left: 50%;
+    transform: translateX(-50%) translateY(-2px);
+    background: grey;
+    color: white;
+    white-space: nowrap;
+    z-index: 2;
+    border-radius: 2px;
+    transition: opacity 0.2s cubic-bezier(0.64, 0.09, 0.08, 1),
+        transform 0.2s cubic-bezier(0.64, 0.09, 0.08, 1);
+}
+.tooltip:hover:after {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+} */
+@media screen and (max-width: 1000px) {
+    .title-section .title-text .token-symbol {
+        font-size: 38px;
+    }
+    .title-section .title-text .token-name {
+        font-size: 38px;
+    }
+    .title-section .title-desc-container .title-desc {
+        font-size: 24px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .title-section .title-image img {
+        height: 350px;
+    }
+    .buy-section .buy-now-button-container .buy-now-button {
+        border-radius: 6px;
+        height: 64px;
+        font-size: 32px;
+    }
+    .buy-section .contract-address {
+        font-size: 24px;
+        overflow-wrap: anywhere;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .roadmap-section {
+        flex-direction: column !important;
+    }
+    .roadmap-section .roadmap-meme {
+        justify-content: center;
+        align-items: center;
+    }
+    .roadmap-section .roadmap-meme img {
+        height: 350px;
+    }
+    .roadmap-section .roadmap-text-container {
+        align-items: center;
+        margin: 0;
+    }
+    .roadmap-section .roadmap-text-container .roadmap-header {
+        margin-right: 0;
+        font-size: 38px;
+    }
+    .roadmap-section .roadmap-text-container .roadmap-text {
+        margin-bottom: 40px;
+        font-size: 24px;
+        margin-left: 10px;
+        margin-right: 10px;
+        max-width: 500px;
+    }
+    .socials-section .socials-icon-container button {
+        margin-right: 10px;
+    }
+    .telegram-icon,
+    .x-icon,
+    .instagram-icon {
+        height: 48px;
+        width: 48px;
+    }
+    .youtube-icon,
+    .tiktok-icon {
+        height: 48px;
+    }
+    .degen-images-section {
+        flex-direction: column;
+    }
+    .degen-images-section .degen-image {
+        flex: 0 0 auto;
+        width: 350px;
+        height: 350px;
+        margin: 10px 0;
+    }
+}
